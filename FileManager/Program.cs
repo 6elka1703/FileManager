@@ -6,7 +6,8 @@ namespace FileManager
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Explorer explorer = new Explorer();
+            explorer.Run();
         }
     }
 }
